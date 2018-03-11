@@ -1,3 +1,4 @@
-# Progressive-Web-App-
+# Progressive-Web-Application-
 
-A progressive web application built using HTML5, CSS3, JS, Bootstrap3 and Gulp 
+A progressive web application built using Bootstrap3, Handlebars, Service Workers and Manifest
+

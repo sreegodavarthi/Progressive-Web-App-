@@ -1,14 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600');
-@import 'bootstrap_custom.css';
-
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import "bootstrap_custom.css";
 /**  Basic Page CSS **/
+
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
   font-size: 2em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 300;
   margin: 0;
 }
@@ -34,9 +39,11 @@ header .navbar-default .navbar-nav a:hover {
   color: #EEC856;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: white;
-    background-color: transparent;
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+  color: white;
+  background-color: transparent;
 }
 
 header .navbar-default .navbar-nav .active a {
@@ -77,6 +84,7 @@ header .navbar-brand span.subhead {
 }
 
 /**  Navbar Toggle **/
+
 header .navbar-toggle {
   background-color: #417D9A;
 }
@@ -85,17 +93,16 @@ header .navbar-default .navbar-toggle .icon-bar {
   background-color: white;
 }
 
-@media only screen
-and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   header .navbar-collapse.in {
-    background-color: rgba(0,0,0, .5);
+    background-color: rgba(0, 0, 0, .5);
   }
 }
 
 /**  nav inbody **/
 
 header .inbody {
-  background: rgba(71, 90, 97,.8);
+  background: rgba(71, 90, 97, .8);
 }
 
 header .navbar.inbody {
@@ -171,10 +178,11 @@ header .inbody .navbar-brand span.subhead {
 }
 
 /**  Page **/
+
 .page {
   padding: 40px 0;
   font-size: 1.7rem;
-  line-height:100%;
+  line-height: 100%;
 }
 
 .page-headline {
@@ -192,9 +200,56 @@ header .inbody .navbar-brand span.subhead {
   margin-bottom: 20px;
 }
 
-#adoption .col-xs-1, #adoption .col-sm-1, #adoption .col-md-1, #adoption .col-lg-1, #adoption .col-xs-2, #adoption .col-sm-2, #adoption .col-md-2, #adoption .col-lg-2, #adoption .col-xs-3, #adoption .col-sm-3, #adoption .col-md-3, #adoption .col-lg-3, #adoption .col-xs-4, #adoption .col-sm-4, #adoption .col-md-4, #adoption .col-lg-4, #adoption .col-xs-5, #adoption .col-sm-5, #adoption .col-md-5, #adoption .col-lg-5, #adoption .col-xs-6, #adoption .col-sm-6, #adoption .col-md-6, #adoption .col-lg-6, #adoption .col-xs-7, #adoption .col-sm-7, #adoption .col-md-7, #adoption .col-lg-7, #adoption .col-xs-8, #adoption .col-sm-8, #adoption .col-md-8, #adoption .col-lg-8, #adoption .col-xs-9, #adoption .col-sm-9, #adoption .col-md-9, #adoption .col-lg-9, #adoption .col-xs-10, #adoption .col-sm-10, #adoption .col-md-10, #adoption .col-lg-10, #adoption .col-xs-11, #adoption .col-sm-11, #adoption .col-md-11, #adoption .col-lg-11, #adoption .col-xs-12, #adoption .col-sm-12, #adoption .col-md-12, #adoption .col-lg-12 {
-    padding-right: 5px;
-    padding-left: 5px;
+#adoption .col-xs-1,
+#adoption .col-sm-1,
+#adoption .col-md-1,
+#adoption .col-lg-1,
+#adoption .col-xs-2,
+#adoption .col-sm-2,
+#adoption .col-md-2,
+#adoption .col-lg-2,
+#adoption .col-xs-3,
+#adoption .col-sm-3,
+#adoption .col-md-3,
+#adoption .col-lg-3,
+#adoption .col-xs-4,
+#adoption .col-sm-4,
+#adoption .col-md-4,
+#adoption .col-lg-4,
+#adoption .col-xs-5,
+#adoption .col-sm-5,
+#adoption .col-md-5,
+#adoption .col-lg-5,
+#adoption .col-xs-6,
+#adoption .col-sm-6,
+#adoption .col-md-6,
+#adoption .col-lg-6,
+#adoption .col-xs-7,
+#adoption .col-sm-7,
+#adoption .col-md-7,
+#adoption .col-lg-7,
+#adoption .col-xs-8,
+#adoption .col-sm-8,
+#adoption .col-md-8,
+#adoption .col-lg-8,
+#adoption .col-xs-9,
+#adoption .col-sm-9,
+#adoption .col-md-9,
+#adoption .col-lg-9,
+#adoption .col-xs-10,
+#adoption .col-sm-10,
+#adoption .col-md-10,
+#adoption .col-lg-10,
+#adoption .col-xs-11,
+#adoption .col-sm-11,
+#adoption .col-md-11,
+#adoption .col-lg-11,
+#adoption .col-xs-12,
+#adoption .col-sm-12,
+#adoption .col-md-12,
+#adoption .col-lg-12 {
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 #adoption {
@@ -212,7 +267,7 @@ header .inbody .navbar-brand span.subhead {
 }
 
 #appointments {
-  line-height:100%;
+  line-height: 100%;
   background: hsl(38, 24%, 87%);
 }
 
@@ -241,19 +296,19 @@ header .inbody .navbar-brand span.subhead {
 }
 
 #appointments .appointment-breed {
-  color: hsla(10, 100%, 28%,.7);
+  color: hsla(10, 100%, 28%, .7);
   font-size: .6em;
   font-weight: 600;
 }
 
 #appointments .appointment-owner-title {
   font-weight: 600;
-  color: rgba(0,0,0,.6);
+  color: rgba(0, 0, 0, .6);
 }
 
 #appointments .appointment-owner-name {
   font-weight: 300;
-  color: rgba(0,0,0,.5);
+  color: rgba(0, 0, 0, .5);
   font-size: .95em;
   font-style: italic;
 }
@@ -264,9 +319,56 @@ header .inbody .navbar-brand span.subhead {
   font-style: italic;
 }
 
-#appointments .col-xs-1, #appointments .col-sm-1, #appointments .col-md-1, #appointments .col-lg-1, #appointments .col-xs-2, #appointments .col-sm-2, #appointments .col-md-2, #appointments .col-lg-2, #appointments .col-xs-3, #appointments .col-sm-3, #appointments .col-md-3, #appointments .col-lg-3, #appointments .col-xs-4, #appointments .col-sm-4, #appointments .col-md-4, #appointments .col-lg-4, #appointments .col-xs-5, #appointments .col-sm-5, #appointments .col-md-5, #appointments .col-lg-5, #appointments .col-xs-6, #appointments .col-sm-6, #appointments .col-md-6, #appointments .col-lg-6, #appointments .col-xs-7, #appointments .col-sm-7, #appointments .col-md-7, #appointments .col-lg-7, #appointments .col-xs-8, #appointments .col-sm-8, #appointments .col-md-8, #appointments .col-lg-8, #appointments .col-xs-9, #appointments .col-sm-9, #appointments .col-md-9, #appointments .col-lg-9, #appointments .col-xs-10, #appointments .col-sm-10, #appointments .col-md-10, #appointments .col-lg-10, #appointments .col-xs-11, #appointments .col-sm-11, #appointments .col-md-11, #appointments .col-lg-11, #appointments .col-xs-12, #appointments .col-sm-12, #appointments .col-md-12, #appointments .col-lg-12 {
-    padding-right: 5px;
-    padding-left: 5px;
+#appointments .col-xs-1,
+#appointments .col-sm-1,
+#appointments .col-md-1,
+#appointments .col-lg-1,
+#appointments .col-xs-2,
+#appointments .col-sm-2,
+#appointments .col-md-2,
+#appointments .col-lg-2,
+#appointments .col-xs-3,
+#appointments .col-sm-3,
+#appointments .col-md-3,
+#appointments .col-lg-3,
+#appointments .col-xs-4,
+#appointments .col-sm-4,
+#appointments .col-md-4,
+#appointments .col-lg-4,
+#appointments .col-xs-5,
+#appointments .col-sm-5,
+#appointments .col-md-5,
+#appointments .col-lg-5,
+#appointments .col-xs-6,
+#appointments .col-sm-6,
+#appointments .col-md-6,
+#appointments .col-lg-6,
+#appointments .col-xs-7,
+#appointments .col-sm-7,
+#appointments .col-md-7,
+#appointments .col-lg-7,
+#appointments .col-xs-8,
+#appointments .col-sm-8,
+#appointments .col-md-8,
+#appointments .col-lg-8,
+#appointments .col-xs-9,
+#appointments .col-sm-9,
+#appointments .col-md-9,
+#appointments .col-lg-9,
+#appointments .col-xs-10,
+#appointments .col-sm-10,
+#appointments .col-md-10,
+#appointments .col-lg-10,
+#appointments .col-xs-11,
+#appointments .col-sm-11,
+#appointments .col-md-11,
+#appointments .col-lg-11,
+#appointments .col-xs-12,
+#appointments .col-sm-12,
+#appointments .col-md-12,
+#appointments .col-lg-12 {
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .modal {
@@ -290,7 +392,7 @@ header .inbody .navbar-brand span.subhead {
   font-size: .7em;
 }
 
-.modal-content img{
+.modal-content img {
   width: 100%;
 }
 
@@ -303,9 +405,8 @@ header .inbody .navbar-brand span.subhead {
   width: 100px;
 }
 
-
 .loader {
-  background-color: rgba(27, 121, 152,.9);
+  background-color: rgba(27, 121, 152, .9);
   position: fixed;
   display: flex;
   width: 100%;
@@ -346,8 +447,7 @@ header .inbody .navbar-brand span.subhead {
   .reloadbtn {
     display: none;
   }
-
   .reloadbtn-lg {
-    display:inline;
+    display: inline;
   }
 }
